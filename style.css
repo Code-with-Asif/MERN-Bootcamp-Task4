@@ -1,0 +1,75 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color:#0059ff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: gold;
+    font-size: 40px;
+}
+.instructions{
+    text-align: center;
+    font-size: 30px;
+}
+
+.game-wrapper {
+    width: 500px;
+    border: 1px solid #dadada;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+}
+
+.inputs-wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.inputs-wrapper input {
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid #dadada;
+}
+
+#submit {
+    width: 30%;
+    background-color: #0059ff;
+    color: gold;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.success {
+    color: green;
+}
+.greater {
+    color: blue;
+}
+.lower {
+    color: red;
+   
+}
+.corectNumber{
+    color: #0059ff;
+}
+#reset {
+    width: 30%;
+    background-color: rgb(128, 0, 130);
+    color: gold;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+}

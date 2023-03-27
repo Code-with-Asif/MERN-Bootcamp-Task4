@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess the Random Number</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- SCRITPS -->
+  <script src="guess-game.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Guess the Number</h1>
+  </header>
+  <!-- <h1 id="display">Current Random Number: </h1> -->
+  <div class="instructions">
+    <p>
+      Guess the number between 0 - 100. You will have 10 guesses for that.
+    </p>
+  </div>
+
+
+  <div class="game-wrapper">
+    <div class="inputs-wrapper">
+
+      <input type="tel" id="user-number" min="0" max="100" maxlength="3" placeholder="ENTER THE NUMBER" />
+      <button type="submit" id="submit" onclick="handleSubmit()">Submit</button>
+      <button type="reset" id="reset" onclick=" resetGame()">Reset</button>
+    </div>
+    <p class="outputs"></p>
+    <div class="results">
+      <p id="display-text"></p>
+    </div>
+  </div>
+</body>
+
+</html>
